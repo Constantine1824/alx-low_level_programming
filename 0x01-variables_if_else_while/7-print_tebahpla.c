@@ -1,16 +1,15 @@
 /**
  * main- Entry point
- *
- * Return: 0
+ * Return: Always (0);
  */
 #include <stdio.h>
 int main(void)
 {
-	char lowchar;
+	char c;
 
-	for (lowchar = 'a'; lowchar <= 'z'; lowchar++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		putchar(lowchar);
+		putchar(c);
 	};
 	putchar('\n');
 	return (0);
