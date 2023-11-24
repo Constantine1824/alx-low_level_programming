@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * binary_to_uint - Convert a binary string to unsigned int
  * @b: The binary string to be converted
